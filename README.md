@@ -9,6 +9,6 @@ And in build directory there are already built javascript files.
 
 To set jsx autobuild use your command line commands:
 ```
-npm install -g react-tools
-jsx --watch src/ build/
+npm install react-tools
+node_modules/jsx/bin/jsx --watch src/ build/
 ```
